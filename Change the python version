@@ -1,0 +1,15 @@
+1. 아나콘다에서 파이썬 버전 바꾸기
+Open the Anaconda Prompt
+
+'conda search python'으로 파이썬 버전 확인
+* 표시된 부분이 현재 사용하고 있는 파이썬 버전
+
+'conda create -n py35 python=3.5.3 anaconda'으로 py35라는 이름으로 python 3.5.3 환경을 만든다.
+
+환경 설정 후
+'activate py35'으로 python 3.5.3 환경 사용
+나올 때는 'deactivate' 사용하면 나온다.
+
+2. 만약 현재 python 버전이 3.6이면 완전히 3.5버전으로 바꾸는 법
+
+'conda install python=3.5.3' 명령어를 치면 python 3.5버전으로 바뀐다.
