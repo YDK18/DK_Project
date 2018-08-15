@@ -1,0 +1,19 @@
+python 3.5설치 후, opencv3를 설치하는 과정이 어렵다.
+기본적으로 설치 파일에는 python 3버전을 지원하지 않기 때문이다.
+
+따라서, conda 클라우드 서버에 등록되 내용을 검색 후 설치
+#anaconda search -t conda opencv
+
+아래의 명령어를 입력하면 패키지를 다운로드 받는 명령어로 요약해준다.
+#anaconda show menpo/opencv3
+----------------------------------------------------------------------
+To install this package with conda run:
+     conda install --channel https://conda.anaconda.org/menpo opencv3
+----------------------------------------------------------------------
+
+opencv3 설치
+#conda install -c menpo opencv3
+
+설치 후 python에 들어가서
+>>>import cv2
+와 같이 cv2 라이브러리를 import 해보기
